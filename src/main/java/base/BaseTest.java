@@ -10,7 +10,6 @@ import factory.DriverFactory;
 import utilities.ConfigReader;
 
 public class BaseTest {
-	
 	protected WebDriver driver;
 	private static final Logger log = LogManager.getLogger(BaseTest.class);
 
@@ -27,5 +26,4 @@ public class BaseTest {
 	public void tearDown() {
 		driver.quit();
 	}
-
 }

@@ -11,7 +11,7 @@ import utilities.ConfigReader;
 
 public class LoginTest extends BaseTest {
 
-	@Test
+	@Test (priority = 1, groups = {"Sanity", "Regression"}, description = "Test to verify login with valid credentials.")
 	public void testLoginWithValidCredentials() {
 		LoginPage loginPage = new LoginPage(driver);
 		ProductsPage productsPage = loginPage.login(ConfigReader.getValue("QA", "validUser"), ConfigReader.getValue("QA", "validPass"));

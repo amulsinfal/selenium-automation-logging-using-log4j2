@@ -13,9 +13,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import utilities.ConfigReader;
 
 public class DriverFactory {
-
 	private static WebDriver driver;
 	private static final Logger log = LogManager.getLogger(DriverFactory.class);
+	
 	public static WebDriver initializeDriver(String browser) {
 		if(browser.equalsIgnoreCase("Chrome")) {
 			ChromeOptions chromeOptions = new ChromeOptions();

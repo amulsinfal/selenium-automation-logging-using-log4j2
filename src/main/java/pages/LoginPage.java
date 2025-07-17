@@ -8,11 +8,9 @@ import org.openqa.selenium.WebDriver;
 import utilities.WaitUtil;
 
 public class LoginPage {
-	
 	protected WebDriver driver;
 	protected WaitUtil waitUtil;
 	private static final Logger log = LogManager.getLogger(LoginPage.class);
-
 	private By txtUsername = By.id("user-name");
 	private By txtPassword = By.id("password");
 	private By btnLogin = By.id("login-button");
@@ -39,10 +37,15 @@ public class LoginPage {
 	
 	public boolean isPageDisplayed() {
 		try {
-			log.info("Login page displayed.");
-			return waitUtil.waitForElementToBeVisible(btnLogin).isDisplayed();
+			boolean isVisible = waitUtil.waitForElementToBeVisible(btnLogin).isDisplayed();
+			if (isVisible) {
+				log.info("Login page displayed.");
+			} else {
+				log.warn("Login button not visible, Login page might not be displayed.");
+			}
+			return isVisible;
 		} catch (Exception e) {
-			log.error("Unable to display Login page. Exception occured: " +e.getMessage());
+			log.error("Unable to display Login page. Exception occurred: ", e);
 			return false;
 		}
 	}
