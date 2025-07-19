@@ -3,6 +3,23 @@ Excited to share my recent experience enhancing my Selenium automation framework
 
 ---
 
+### 🛠️ Tools and Technologies Used
+
+| Category             | Tools / Technologies                             |
+|----------------------|--------------------------------------------------|
+| **Programming**      | Java                                             |
+| **Build Tool**       | Maven                                            |
+| **Testing Framework**| TestNG                                           |
+| **Automation Tool**  | Selenium WebDriver                               |
+| **Logging Framework**| Log4j2                                           |
+| **Design Pattern**   | Page Object Model (POM)                          |
+| **Dependency Manager** | Maven `pom.xml`                                 |
+| **IDE**              | Eclipse                                          |
+| **Version Control**  | Git & GitHub                                     |
+| **Configuration**    | `QA-config.properties`, `log4j2.properties`      |
+
+---
+
 ## 🔍 Benefits of Using Log4j2 in This Framework
 - ✅ Clear visibility of WebDriver actions and test steps
 - 🐞 Quick identification of issues with stack traces in logs
