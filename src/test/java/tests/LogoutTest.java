@@ -8,9 +8,9 @@ import base.BaseTest;
 import pages.LoginPage;
 import utilities.ConfigReader;
 
-public class LogoutTest extends BaseTest{
-	
-	@Test (priority = 1, groups = {"Sanity", "Regression"}, description = "Test to verify logout functionality.")
+public class LogoutTest extends BaseTest {
+
+	@Test(priority = 1, groups = { "Sanity", "Regression" }, description = "Test to verify logout functionality.")
 	public void testLogout() {
 		LoginPage loginPage = new LoginPage(driver);
 		loginPage = loginPage.login(ConfigReader.getValue("QA", "validUser"), ConfigReader.getValue("QA", "validPass")).logout();

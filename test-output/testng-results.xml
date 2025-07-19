@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-18T00:34:59 IST" name="Automation Suite (Logging Using Log4j2)" finished-at="2025-07-18T00:35:07 IST" duration-ms="8317">
+  <suite started-at="2025-07-19T19:57:44 IST" name="Automation Suite (Logging Using Log4j2)" finished-at="2025-07-19T19:57:52 IST" duration-ms="8110">
     <groups>
       <group name="Sanity">
         <method signature="LoginTest.testLoginWithValidCredentials()[pri:1, instance:tests.LoginTest@b4711e2]" name="testLoginWithValidCredentials" class="tests.LoginTest"/>
@@ -13,35 +13,35 @@
         <method signature="LogoutTest.testLogout()[pri:1, instance:tests.LogoutTest@2fd953a6]" name="testLogout" class="tests.LogoutTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-07-18T00:34:59 IST" name="Regression Test" finished-at="2025-07-18T00:35:07 IST" duration-ms="8317">
+    <test started-at="2025-07-19T19:57:44 IST" name="Funational Test" finished-at="2025-07-19T19:57:52 IST" duration-ms="8110">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@b4711e2]" started-at="2025-07-18T00:34:59 IST" name="setup" finished-at="2025-07-18T00:35:02 IST" duration-ms="3064" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@b4711e2]" started-at="2025-07-19T19:57:44 IST" name="setup" finished-at="2025-07-19T19:57:47 IST" duration-ms="3358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLoginWithValidCredentials()[pri:1, instance:tests.LoginTest@b4711e2]" started-at="2025-07-18T00:35:02 IST" name="testLoginWithValidCredentials" description="Test to verify login with valid credentials." finished-at="2025-07-18T00:35:03 IST" duration-ms="788" status="PASS">
+        <test-method signature="testLoginWithValidCredentials()[pri:1, instance:tests.LoginTest@b4711e2]" started-at="2025-07-19T19:57:47 IST" name="testLoginWithValidCredentials" description="Test to verify login with valid credentials." finished-at="2025-07-19T19:57:48 IST" duration-ms="612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@b4711e2]" started-at="2025-07-18T00:35:03 IST" name="tearDown" finished-at="2025-07-18T00:35:04 IST" duration-ms="749" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@b4711e2]" started-at="2025-07-19T19:57:48 IST" name="tearDown" finished-at="2025-07-19T19:57:48 IST" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginTest -->
       <class name="tests.LogoutTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LogoutTest@2fd953a6]" started-at="2025-07-18T00:35:04 IST" name="setup" finished-at="2025-07-18T00:35:05 IST" duration-ms="1838" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LogoutTest@2fd953a6]" started-at="2025-07-19T19:57:48 IST" name="setup" finished-at="2025-07-19T19:57:50 IST" duration-ms="1995" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogout()[pri:1, instance:tests.LogoutTest@2fd953a6]" started-at="2025-07-18T00:35:05 IST" name="testLogout" description="Test to verify logout functionality." finished-at="2025-07-18T00:35:07 IST" duration-ms="1406" status="PASS">
+        <test-method signature="testLogout()[pri:1, instance:tests.LogoutTest@2fd953a6]" started-at="2025-07-19T19:57:50 IST" name="testLogout" description="Test to verify logout functionality." finished-at="2025-07-19T19:57:51 IST" duration-ms="1613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogoutTest@2fd953a6]" started-at="2025-07-18T00:35:07 IST" name="tearDown" finished-at="2025-07-18T00:35:07 IST" duration-ms="384" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogoutTest@2fd953a6]" started-at="2025-07-19T19:57:51 IST" name="tearDown" finished-at="2025-07-19T19:57:52 IST" duration-ms="213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LogoutTest -->
-    </test> <!-- Regression Test -->
+    </test> <!-- Funational Test -->
   </suite> <!-- Automation Suite (Logging Using Log4j2) -->
 </testng-results>

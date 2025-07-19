@@ -28,8 +28,7 @@ public class DriverFactory {
 		}
 		log.info(browser + " browser launched.");
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts()
-				.implicitlyWait(Duration.ofSeconds(Long.parseLong(ConfigReader.getValue("QA", "implicitWait"))));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Long.parseLong(ConfigReader.getValue("QA", "implicitWait"))));
 		log.info("Implicit wait set to " + ConfigReader.getValue("QA", "implicitWait") + " seconds.");
 		driver.manage().window().maximize();
 		log.info("Webdriver initialised successfully.");
